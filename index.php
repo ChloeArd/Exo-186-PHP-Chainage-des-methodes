@@ -12,3 +12,12 @@
  *
  * 5. Utilisez le chaînage des méthodes pour mettre à jour le nom et le prix en une seule ligne.
  */
+
+require "./classes/VODService.php";
+
+$VODService = new VODService("Spider-Man : Homecoming", 6.25);
+
+$VODService->setName("Spider-Man : Homecoming")->setPrice(6.25);
+
+echo $VODService->getName()."<br>";
+echo $VODService->getPrice()."<br>";
