@@ -2,7 +2,7 @@
 /**
  * 1. Créez une classe VODService et ajoutez lui les propriétés suivantes:
  *    - name : string
- *    - price : prix
+ *    - price : float
  *
  * 2. Créez les getters et les setters associés à ces propriétés.
  *
